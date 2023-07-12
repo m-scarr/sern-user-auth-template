@@ -14,16 +14,16 @@ In the project directory, you can run:
 
 ### `nodemon index`
 
-Runs the back-end of the project on port 3000.\
+Runs the back-end of the project on port 3000.
 
 ### `npm start`
 
-Runs the front-end in the development mode.\
+Runs the front-end in the development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
+Builds the app for production to the `build` folder.
