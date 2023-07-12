@@ -6,7 +6,7 @@ I created this template to help rebuild old projects with cleaner code. You can 
 
 1. Run npm install
 2. Create a database
-3. Open config/database.json and change #` "database":"" to "database":"[your database name here]"
+3. Open config/database.json and change "database":"" to "database":"[your database name here]"
 
 ## Available Scripts
 
