@@ -3,7 +3,7 @@ var bcrypt = require("bcrypt");
 module.exports = {
     unauthorized: {
         get: {
-            isLoggedIn: (db, req, res) => {
+            isLoggedIn: (db, req, res) => { // /User?func=isLoggedIn
                 if (req.isAuthenticated()) {
                     res.json({ success: true, user: { ...req.user.dataValues } })
                 } else {
@@ -41,7 +41,7 @@ module.exports = {
     },
     authorized: {
         get: {
-            info: (db, req, res) => { res.json(req.user.dataValues) },
+            info: (db, req, res) => { res.json(req.user.dataValues) }, // /auth/User?func=info
             logOut: (db, req, res) => {
                 req.logout();
                 res.json(true)
