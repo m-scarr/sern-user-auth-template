@@ -8,7 +8,7 @@ I created this template to help rebuild old projects with cleaner code. You can 
 2. Create a database
 3. Open config/database.json and change
    ##### `"database":""`
-to
+   to
    ##### `"database":"[your database name here]"`
 
 ## Available Scripts
