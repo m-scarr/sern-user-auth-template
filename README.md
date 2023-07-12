@@ -17,7 +17,7 @@ In the project directory, you can run:
 
 ### `nodemon index`
 
-Runs the back-end of the project on port 3000.
+Runs the back-end of the project on port 3001.
 
 ### `npm start`
 
