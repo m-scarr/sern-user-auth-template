@@ -1,6 +1,6 @@
 # SERN User Authentication Template
 
-I created this template to help rebuild old projects with cleaner code. You can register a user, log in, and log out. It handles sessions with cookies and encrypts passwords with bcrypt. Adding a controller or a function to a controller will automatically add a route, observe the pattern in controllers/User.js to understand how to implement controllers on the back end. Files added to the models folder are similarily automatically added as tables to the database if they don't already exists, you can observe the pattern for models in models/User.js.
+I created this template to help rebuild old projects with cleaner code. It uses MySQL, Express, React, Node.js and some other technologies. You can register a user, log in, and log out. It handles sessions with cookies and encrypts passwords with bcrypt. Adding a controller or a function to a controller will automatically add a route, observe the pattern in controllers/User.js to understand how to implement controllers on the back end. Files added to the models folder are similarily automatically added as tables to the database if they don't already exists, you can observe the pattern for models in models/User.js.
 
 # Installation
 
