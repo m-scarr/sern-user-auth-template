@@ -14,13 +14,17 @@ module.exports = function (app, db) {
             logInName: username,
           },
         }).then(function (user) {
-          var hashedPassword = bcrypt.hashSync(password, user.salt);
           if (user == null) {
             return done(null, false, { message: "Wrong Username or Password" });
-          } else if (user.password === hashedPassword) {
-            return done(null, user);
           } else {
-            return done(null, false, { message: "Wrong Username or Password" });
+            var hashedPassword = bcrypt.hashSync(password, user.salt);
+            if (user.password === hashedPassword) {
+              return done(null, user);
+            } else {
+              return done(null, false, {
+                message: "Wrong Username or Password",
+              });
+            }
           }
         });
       }
