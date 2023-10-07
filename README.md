@@ -12,7 +12,7 @@ I created this template to help rebuild old projects with cleaner code. It utili
 
 In the project directory, you can run:
 
-### `nodemon index`
+### `node index`
 
 Runs the back-end of the project on port 3001.
 
